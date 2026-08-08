@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "declaration": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "types": [
+      "node",
+      "mocha",
+      "@nomicfoundation/hardhat-ethers",
+      "@nomicfoundation/hardhat-chai-matchers"
+    ]
+  },
+  "include": [
+    "./hardhat.config.js",
+    "./scripts/**/*.ts",
+    "./test/**/*.ts",
+    "./typechain-types/**/*.ts"
+  ]
+}
